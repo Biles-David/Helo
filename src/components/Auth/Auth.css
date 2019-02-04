@@ -1,0 +1,77 @@
+.auth {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-image: linear-gradient(99deg,#ff70a6,#ff9770 40%,#ffd670 73%,#e9ff70);
+  top: 0;
+  left: 0;
+  justify-content: center;
+  color: #fff;
+}
+
+.auth_container {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 14px 28px 0 rgba(0,0,0,.25);
+  background-image: linear-gradient(97deg,#ff7a6e,#ffd670);
+  width: 35vw;
+  height: 55vh;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.auth_img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.auth_title {
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+.auth_input_box {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  align-items: center;
+}
+
+.auth_input_style {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 16px 18px;
+  background-position: 98% 50%;
+  cursor: pointer;
+  height: 50%;
+}
+
+.auth_button_container {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+}
+
+.dark_button {
+  border-radius: 1px;
+  background-image: -webkit-radial-gradient(50% -46%,circle,#737373,#403d39);
+  background-image: -o-radial-gradient(50% -46%,circle,#737373,#403d39);
+  background-image: radial-gradient(circle at 50% -46%,#737373,#403d39);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.2);
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;;
+}

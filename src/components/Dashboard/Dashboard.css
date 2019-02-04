@@ -1,0 +1,27 @@
+.dashboard {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dahsboard_box_search, .dashboard_box_posts {
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.2);
+}
+
+.dashboard_box_search {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.dashboard_box_posts {
+  margin: 20px;
+}
+
+.dashboard_post {
+  border: 1px solid black;
+  margin: 5px;
+}
